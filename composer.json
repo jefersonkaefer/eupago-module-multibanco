@@ -1,6 +1,7 @@
 {
   "name": "eupago/multibanco",
   "description": "Module of Integration euPago",
+  "homepage": "https://www.eupago.pt",
   "type": "magento2-module",
   "require": {
     "magento/module-sales": "100.0.*",
@@ -22,4 +23,5 @@
       "Eupago\\Multibanco\\": ""
     }
   }
+  "minimum-stability": "dev"
 }
