@@ -20,7 +20,7 @@ class TransferFactory implements TransferFactoryInterface {
      */
     const SERVER = [
         'dev' => 'http://replica.eupago.pt/replica.eupagov8_no_ssl.wsdl',
-        'production' => 'http://seguro.eupago.pt/eupagov8.wsdl'
+        'production' => 'https://seguro.eupago.pt/eupagov8.wsdl'
     ];
 
     private $transferBuilder;
